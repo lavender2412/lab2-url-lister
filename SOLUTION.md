@@ -30,5 +30,5 @@ Caveat: Dataproc's default 1000 GB boot disks exceeded my project's disk quota f
 
 ## Resources and collaboration
 - Hadoop and Streaming docs, Michael Noll's Python streaming tutorial, and the course README.
-- [CONFIRM: AI assistance. I used Claude as a tutor for guidance and debugging, and I wrote and ran the code myself.]
-- [CONFIRM: Collaborators: none / names]
+- I used Claude as a tutor for guidance and debugging. I wrote and ran the code myself.
+- Collaborators: none.
