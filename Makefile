@@ -41,3 +41,11 @@ stream:
 	-reducer Reducer.py \
 	-file Mapper.py -file Reducer.py \
 	-input input -output stream-output
+
+urlstream:
+	-rm -rf url-output
+	hadoop jar $(STREAM_JAR) \
+	-mapper URLMapper.py \
+	-reducer URLReducer.py \
+	-file URLMapper.py -file URLReducer.py \
+	-input input -output url-output
